@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf7ff767-61ac-4737-98e0-0b0999a59269" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/Exercise 3..iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 3/src/Mai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS 2 JAVA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS 2 JAVA/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS 2 JAVA/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/TUGAS2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGAS2/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas code lab 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../objday1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/Balok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/BangunRuang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/Kubus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled4/src/Tabung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled8/untitled8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TUGAS2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TUGAS2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TUGAS2/src/admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../objday1/src/halloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../objday1/src/halloworld.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2dozZtG9Ojf6fyDAx8r7D38qfRn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AgeCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AgeValidity.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chikens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Chikens01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEquality.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TernaryOperator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Windows 10/IdeaProjects/Exercise 3/src/Main.java&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf7ff767-61ac-4737-98e0-0b0999a59269" name="Changes" comment="" />
+      <created>1710689278507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710689278507</updated>
+    </task>
+    <servers />
+  </component>
+</project>

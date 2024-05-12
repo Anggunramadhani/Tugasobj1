@@ -1,11 +1,8 @@
-import javax.swing.*;
 
-public class halloworld {
 
-public static void main (String [] args) {
-
-    System.out.print("Hello world!");
-    JOptionPane.showMessageDialog(null,"HELLO WORLD");
-  }
+public static void main(String args[]) {
+    String greet1 = "Hello";
+    String greet2 = "World";
+    String message2 = greet1 +" " +greet2 +" " +2016 +"!";
+    System.out.println(message2);
 }
-
