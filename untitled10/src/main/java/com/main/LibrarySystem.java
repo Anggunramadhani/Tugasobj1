@@ -15,8 +15,7 @@ import java.util.Scanner;
 
 public class LibrarySystem {
 
-    // menyimpan semua object dalam satu array dengan teknik polymorphism
-    public static Book daftarBuku[] = new Book[100]; // array satu dimensi untuk menyimpan buku
+    public static Book daftarBuku[] = new Book[100];
     public static ArrayList<Student> studentList = new ArrayList<>();
     public static int i = 0;
 
@@ -24,9 +23,9 @@ public class LibrarySystem {
 
     public static void main(String[] args) {
 
-        daftarBuku[i++] =new StoryBook(1, "334-e-11-0", "Origami Hati", "Boy Chandra", "Novel", "14","12");
-        daftarBuku[i++] =new HistoryBook(2, "335-f-12-1", "Garis Waktu", "Fiersa Besari", "Prosa", "5","15");
-        daftarBuku[i++] =new TextBook(3, "336-g-13-2", "Arah Langkah", "Fiersa Besari", "Novel", "13","15");
+        daftarBuku[i++] =new StoryBook(1,"","Seperti Hujan Yang Jatuh Kebumi","Boy Chandra","Novel",12,12);
+        daftarBuku[i++] =new HistoryBook(1,"","Cantik itu luka","Eka Kurniawan","Novel",12,16);
+        daftarBuku[i++] =new TextBook(2,"","Laskar Pelangi","Eka kurniawan","Novel",11,15);
         boolean isRunning = true;
         while (isRunning) {
             System.out.println("===== Library System =====");
@@ -62,7 +61,7 @@ public class LibrarySystem {
                     admin.login();
                     break;
                 case 3:
-                    System.out.println("Terima kasih semoga puas dengan pelayanan kami");
+                    System.out.println("Keluar Program....");
                     isRunning = false;
                     break;
                 default:

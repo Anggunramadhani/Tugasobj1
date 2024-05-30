@@ -81,7 +81,7 @@ public class Student extends User implements iMenu {
             System.out.println("=================================================================================");
             int index = 1;
             for (Book book : borrowedBooks) {
-                System.out.println("|| " + index + " || " + book.getBookId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getDuration() + " ||");
+                System.out.println("|| " + book.generateUniqueId() + " || " + book.generateUniqueId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getDuration() + " ||");
                 index++;
             }
             System.out.println("=================================================================================");
@@ -96,7 +96,7 @@ public class Student extends User implements iMenu {
         int index = 1;
         for (Book book : bookList) {
             if (book != null) {
-                System.out.println("|| " + index + " || " + book.getBookId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getStok() + " ||");
+                System.out.println("|| " + book.generateUniqueId() + " || " + book.generateUniqueId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getStock() + " ||");
                 index++;
             }
         }
@@ -110,38 +110,47 @@ public class Student extends User implements iMenu {
         if (selectedBook != null) {
             System.out.print("Masukkan durasi pinjaman: ");
             durasi = Integer.parseInt(scanner.nextLine());
-            selectedBook.getDuration(durasi);
-
-
+            int durasiPinjaman = selectedBook.getDuration();
         } else {
             System.out.println("Buku tidak ditemukan.");
         }
     }
-
-
     private void returnBook() {
         if (borrowedBooks.isEmpty()) {
             System.out.println("Anda belum meminjam buku.");
             return;
         }
+
         System.out.println("Buku yang Anda pinjam:");
         for (int i = 0; i < borrowedBooks.size(); i++) {
             System.out.println((i + 1) + ". " + borrowedBooks.get(i).getTitle());
         }
+
         System.out.print("Pilih buku yang akan dikembalikan (nomor): ");
-        int choice = scanner.nextInt();
-        if (choice > 0 && choice <= borrowedBooks.size()) {
-            Book returnedBook = borrowedBooks.remove(choice - 1);
-            returnedBook.getStok();
-            System.out.println("Buku " + returnedBook.getTitle() + " berhasil dikembalikan.");
-        } else {
-            System.out.println("Pilihan tidak valid.");
+        int selectedBookIndex = scanner.nextInt();
+        scanner.nextLine();
+
+        if (selectedBookIndex < 1 || selectedBookIndex > borrowedBooks.size()) {
+            System.out.println("Nomor buku tidak valid.");
+            return;
+        }
+
+        Book returnedBook = borrowedBooks.remove(selectedBookIndex - 1);
+        System.out.println("Anda telah mengembalikan buku: " + returnedBook.getTitle());
+
+        // Mengurangi stok buku yang dikembalikan
+        for (Book book : daftarBuku) {
+            if (book != null && book.generateUniqueId().equals(returnedBook.generateUniqueId())){
+                book.decreaseStock();
+                System.out.println("Stok buku " + book.getTitle() + " berkurang satu.");
+                break;
+            }
         }
     }
 
     private Book findBookById(String id) {
         for (Book book : daftarBuku) {
-            if (book != null && book.getBookId().equals(id)) {
+            if (book != null && book.generateUniqueId().equals(id)) {
                 return book;
             }
         }

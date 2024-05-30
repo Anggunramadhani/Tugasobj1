@@ -1,27 +1,26 @@
 package com.books;
 
+import java.util.UUID;
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Book {
     int no;
     String bookId;
     String title;
     String author;
     String category;
-    String stock;
-    String duration;
+    int stock;
+    int duration;
+    private static AtomicInteger counter = new AtomicInteger(0); // Inisialisasi counter
 
-
-    public Book(int no,String bookId, String title, String author, String category, String stock,String duration) {
-        this.no =no;
-        this.bookId = bookId;
+    public Book(int no,String String title, String author,String category, int stock, int duration) {
+        this.no = no;
         this.title = title;
         this.author = author;
         this.category = category;
         this.stock = stock;
-
-    }
-
-    public String getBookId() {
-        return bookId;
+        this.duration = duration;
+        this.bookId = generateId;
     }
 
     public String getTitle() {
@@ -36,17 +35,24 @@ public class Book {
         return category;
     }
 
-    public int getDuration(int duration) {
-        return duration;
-    }
-
-    public String getStok() {
+    public int getStock() {
         return stock;
     }
 
-    public String getDuration() {
-        return null;
+    public int getDuration() {
+        return duration;
+    }
+
+    public String generateId(String prefix, String suffix) {
+        String uniqueId = prefix + "_" + System.currentTimeMillis() + "_" + suffix;
+        return uniqueId;
+    }
+
+    public void decreaseStock() {
+        if (stock > 0) {
+            stock--;
+        } else {
+            System.out.println("Stok buku " + title + " sudah habis.");
+        }
     }
 }
-
-

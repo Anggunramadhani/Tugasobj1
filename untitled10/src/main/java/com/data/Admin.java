@@ -1,4 +1,5 @@
 package com.data;
+
 import com.books.*;
 import com.util.iMenu;
 
@@ -6,7 +7,9 @@ import java.util.Scanner;
 
 import static com.main.LibrarySystem.*;
 
-public class Admin extends User implements iMenu{
+public class Admin extends User implements iMenu {
+
+    private int lastId = 0;
 
     Scanner scanner = new Scanner(System.in);
 
@@ -34,7 +37,7 @@ public class Admin extends User implements iMenu{
 
     public void menu() {
         while (true) {
-            System.out.println("Menu Admin");
+            System.out.println("===Menu Admin===");
             System.out.println("1. Tambah Mahasiswa");
             System.out.println("2. Tampilkan Mahasiswa");
             System.out.println("3. Input Buku");
@@ -66,17 +69,17 @@ public class Admin extends User implements iMenu{
         // Implementasi penambahan mahasiswa
         System.out.println("Menambahkan mahasiswa...");
         System.out.print("Masukkan Nama: ");
-        scanner.nextLine(); // Menggunakan nextLine() untuk membaca nama dengan dua kata
-        String name =scanner.nextLine();
+        scanner.nextLine(); // Membersihkan karakter newline
+        String name = scanner.nextLine();
         System.out.print("Masukkan NIM: ");
         String nim = scanner.next();
-        scanner.nextLine();
-        while(true){
-            if (nim.length() != 15 ) {
+        scanner.nextLine(); // Membersihkan karakter newline
+        while (true) {
+            if (nim.length() != 15) {
                 System.out.print("Nim Harus 15 Digit!!!\n");
                 System.out.print("Masukkan NIM: ");
                 nim = scanner.nextLine();
-            } else if (checkNim(nim)){
+            } else if (checkNim(nim)) {
                 System.out.println("NIM sudah terdaftar");
                 System.out.print("Masukkan NIM baru: ");
                 nim = scanner.nextLine();
@@ -92,9 +95,6 @@ public class Admin extends User implements iMenu{
         System.out.println("Mahasiswa dengan NIM " + nim + " berhasil ditambahkan.");
     }
 
-
-
-
     @Override
     public void displayBooks(Book[] bookList) {
         // Implementasi menampilkan daftar buku
@@ -104,13 +104,12 @@ public class Admin extends User implements iMenu{
         int index = 1;
         for (Book book : bookList) {
             if (book != null) {
-                System.out.println("|| " + index + " || " + book.getBookId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getStok() + " ||");
+                System.out.println("|| " + index + " || " + book.generateUniqueId() + " || " + book.getTitle() + " || " + book.getAuthor() + " || " + book.getCategory() + "  || " + book.getStock() + " ||");
                 index++;
             }
         }
         System.out.println("================================================================");
     }
-
 
     private void displayStudents() {
         System.out.println("Daftar Mahasiswa yang terdaftar:");
@@ -129,8 +128,7 @@ public class Admin extends User implements iMenu{
     }
 
     private String generateId(String prefix) {
-        int nextId = i + 1;
-        return prefix + String.format("%03d", nextId);
+        lastId++; // Increment ID terakhir
+        return prefix + String.format("%03d", lastId);
     }
 }
-
