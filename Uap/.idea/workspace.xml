@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b88bde7-1a99-4478-bc0b-af8661e56a88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MODUL1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL1/src/main/java/com/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/src/main/java/com/main/modul6/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/src/main/java/com/main/modul6/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MODUL6/src/main/resources/com/main/modul6/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modul 4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modul 4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modul 4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Modul 4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/src/main/java/com/main/percobaan2/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Percobaan2/src/main/resources/com/main/percobaan2/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/src/main/java/com/main/tugasmodul6/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/src/main/java/com/main/tugasmodul6/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TUGASMODUL6/src/main/resources/com/main/tugasmodul6/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/Data/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/Data/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/Data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/books/HistoryBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/com/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tugas modul 5/src/util/iMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/src/main/java/com/main/codelab6/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/src/main/java/com/main/codelab6/LoginGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../codelab6/src/main/resources/com/main/codelab6/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/Book/HistoryBook.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2hocb3MtHbG81sc9bk1XZ1VzwAK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Windows 10/IdeaProjects/Uap/src/main/java/com/main/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b88bde7-1a99-4478-bc0b-af8661e56a88" name="Changes" comment="" />
+      <created>1718263939625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718263939625</updated>
+    </task>
+    <servers />
+  </component>
+</project>
